@@ -1,0 +1,721 @@
+{% extends 'verb-base.html' %}
+{% block title %}Verb List{% endblock %}
+{% block content %}
+
+
+{{ verbs }}<br/>
+<i>{{ verbs.english }}</i>
+<hr/>
+Verbal Noun: {{ verbs.verbalNoun }}<br/>
+Verbal Adjective: {{ verbs.verbalAdjective }}<br/><br/>
+
+Simple Past
+<hr>
+Singular<br/>
+<table class = "table table-bordered">
+    <tr>
+    <th>Indicative</th>
+    <th>Interrogative</th>
+    <th>Negative</th>
+</tr>
+<tr>
+<td>
+{{ verbs.simplePast1stPersonSingPos }} 
+</td>
+<td>
+{{ verbs.simplePast1stPersonSingInter }} 
+</td>
+<td>
+{{ verbs.simplePast1stPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.simplePast2ndPersonSingPos }} 
+</td>
+<td>
+{{ verbs.simplePast2ndPersonSingInter }} 
+</td>
+<td>
+{{ verbs.simplePast2ndPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.simplePast3rdPersonSingPos }} 
+</td>
+<td>
+{{ verbs.simplePast3rdPersonSingInter }} 
+</td>
+<td>
+{{ verbs.simplePast3rdPersonSingNeg }}
+</td>
+</tr>
+</table>
+Plural<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.simplePast1stPersonPlPos }} 
+</td>
+<td>
+{{ verbs.simplePast1stPersonPlInter }} 
+</td>
+<td>
+{{ verbs.simplePast1stPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.simplePast1stPersonPlPosAlt }} 
+</td>
+<td>
+{{ verbs.simplePast1stPersonPlInterAlt }} 
+</td>
+<td>
+{{ verbs.simplePast1stPersonPlNegAlt }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.simplePast2ndPersonPlPos }} 
+</td>
+<td>
+{{ verbs.simplePast2ndPersonPlInter }} 
+</td>
+<td>
+{{ verbs.simplePast2ndPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.simplePast3rdPersonPlPos }} 
+</td>
+<td>
+{{ verbs.simplePast3rdPersonPlInter }} 
+</td>
+<td>
+{{ verbs.simplePast3rdPersonPlNeg }}
+</td>
+</tr>
+</table>
+Impersonal<br/>
+<table class = "table table-bordered">
+    <tr>
+        <td>
+{{ verbs.simplePastImpersonalPos }} 
+</td>
+<td>
+{{ verbs.simplePastImpersonalInter }} 
+</td>
+<td>
+{{ verbs.simplePastImpersonalNeg }}
+</td>
+</tr>
+</table>
+
+Present
+	<hr>
+Singular<br/>
+<table class = "table table-bordered">
+    <tr>
+    <th>Indicative</th>
+    <th>Interrogative</th>
+    <th>Negative</th>
+</tr>
+<tr>
+<td>
+{{ verbs.present1stPersonSingPos }} 
+</td>
+<td>
+{{ verbs.present1stPersonSingInter }} 
+</td>
+<td>
+{{ verbs.present1stPersonSingNeg }}
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.present2ndPersonSingPos }} 
+</td>
+<td>
+{{ verbs.present2ndPersonSingInter }} 
+</td>
+<td>
+{{ verbs.present2ndPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.present3rdPersonSingPos }} 
+</td>
+<td>
+{{ verbs.present3rdPersonSingInter }} 
+</td>
+<td>
+{{ verbs.present3rdPersonSingNeg }}
+</td>
+</tr>
+</table>
+Plural<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.present1stPersonPlPosAlt }} 
+</td>
+<td>
+{{ verbs.present1stPersonPlInterAlt }} 
+</td>
+<td>
+{{ verbs.present1stPersonPlNegAlt }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.present1stPersonPlPos }} 
+</td>
+<td>
+{{ verbs.present1stPersonPlInter }} 
+</td>
+<td>
+{{ verbs.present1stPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.present2ndPersonPlPos }} 
+</td>
+<td>
+{{ verbs.present2ndPersonPlInter }} 
+</td>
+<td>
+{{ verbs.present2ndPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.present3rdPersonPlPos }} 
+</td>
+<td>
+{{ verbs.present3rdPersonPlInter }} 
+</td>
+<td>
+{{ verbs.present3rdPersonPlNeg }}
+</td>
+</tr>
+</table>
+Impersonal<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.presentImpersonalPos }} 
+</td>
+<td>
+{{ verbs.presentImpersonalInter }} 
+</td>
+<td>
+{{ verbs.presentImpersonalNeg }}
+</td>
+</tr>
+</table>
+
+Future
+<hr>
+Singular<br/>
+<table class = "table table-bordered">
+    <tr>
+    <th>Indicative</th>
+    <th>Interrogative</th>
+    <th>Negative</th>
+</tr>
+<tr>
+<td>
+{{ verbs.future1stPersonSingPos }} 
+</td>
+<td>
+{{ verbs.future1stPersonSingInter }} 
+</td>
+<td>
+{{ verbs.future1stPersonSingNeg }}
+</td>
+</tr>
+<td>
+{{ verbs.future2ndPersonSingPos }} 
+</td>
+<td>
+{{ verbs.future2ndPersonSingInter }} 
+</td>
+<td>
+{{ verbs.future2ndPersonSingNeg }} 
+</td>
+<tr>
+<td>
+{{ verbs.future3rdPersonSingPos }} 
+</td>
+<td>
+{{ verbs.future3rdPersonSingInter }} 
+</td>
+<td>
+{{ verbs.future3rdPersonSingNeg }}
+</td>
+</tr>
+</table>
+Plural<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.future1stPersonPlPosAlt }} 
+</td>
+<td>
+{{ verbs.future1stPersonPlInterAlt }} 
+</td>
+<td>
+{{ verbs.future1stPersonPlNegAlt }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.future1stPersonPlPos }} 
+</td>
+<td>
+{{ verbs.future1stPersonPlInter }} 
+</td>
+<td>
+{{ verbs.future1stPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.future2ndPersonPlPos }} 
+</td>
+<td>
+{{ verbs.future2ndPersonPlInter }} 
+</td>
+<td>
+{{ verbs.future2ndPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.future3rdPersonPlPos }} 
+</td>
+<td>
+{{ verbs.future3rdPersonPlInter }} 
+</td>
+<td>
+{{ verbs.future3rdPersonPlNeg }} 
+</td>
+</tr>
+</table>
+Impersonal<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.futureImpersonalPos }} 
+</td>
+<td>
+{{ verbs.futureImpersonalInter }} 
+</td>
+<td>
+{{ verbs.futureImpersonalNeg }} 
+</td>
+</tr>
+</table>
+
+Conditional
+<hr>
+Singular<br/>
+<table class = "table table-bordered">
+<tr>
+    <th>Indicative</th>
+    <th>Interrogative</th>
+    <th>Negative</th>
+</tr>
+<tr>
+<td>
+{{ verbs.conditional1stPersonSingPos }} 
+</td>
+<td>
+{{ verbs.conditional1stPersonSingInter }} 
+</td>
+<td>
+{{ verbs.conditional1stPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.conditional2ndPersonSingPos }} 
+</td>
+<td>
+{{ verbs.conditional2ndPersonSingInter }}
+</td>
+<td>
+{{ verbs.conditional2ndPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.conditional3rdPersonSingPos }} 
+</td>
+<td>
+{{ verbs.conditional3rdPersonSingInter }} 
+</td>
+<td>
+{{ verbs.conditional3rdPersonSingNeg }} 
+</td>
+</tr>
+</table>
+Plural<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.conditional1stPersonPlPosAlt }} 
+</td>
+<td>
+{{ verbs.conditional1stPersonPlInterAlt }} 
+</td>
+<td>
+{{ verbs.conditional1stPersonPlNegAlt }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.conditional1stPersonPlPos }} 
+</td>
+<td>
+{{ verbs.conditional1stPersonPlInter }} 
+</td>
+<td>
+{{ verbs.conditional1stPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.conditional2ndPersonPlPos }} 
+</td>
+<td>
+{{ verbs.conditional2ndPersonPlInter }} 
+</td>
+<td>
+{{ verbs.conditional2ndPersonPlNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.conditional3rdPersonPlPosAlt }} 
+</td>
+<td>
+{{ verbs.conditional3rdPersonPlInterAlt }} 
+</td>
+<td>
+{{ verbs.conditional3rdPersonPlNegAlt }}
+</td>
+</tr>
+<tr>
+ <td>
+{{ verbs.conditional3rdPersonPlPos }} 
+</td>
+<td>
+{{ verbs.conditional3rdPersonPlInter }} 
+</td>
+<td>
+{{ verbs.conditional3rdPersonPlNeg }}
+</td>
+</tr>
+</table>
+Impersonal<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.conditionalImpersonalPos }} 
+</td>
+<td>
+{{ verbs.conditionalImpersonalInter }} 
+</td>
+<td>
+{{ verbs.conditionalImpersonalNeg }}
+</td>
+</tr>
+</table>
+Habitual Past
+<hr>
+Singular<br/>
+<table class = "table table-bordered">
+<tr>
+    <th>Indicative</th>
+    <th>Interrogative</th>
+    <th>Negative</th>
+</tr>
+<tr>
+<td>
+{{ verbs.habitualPast1stPersonSingPos }}
+</td>
+<td>
+ {{ verbs.habitualPast1stPersonSingInter }}
+</td>
+<td>
+{{ verbs.habitualPast1stPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.habitualPast2ndPersonSingPos }} 
+</td>
+<td>
+{{ verbs.habitualPast2ndPersonSingInter }} 
+</td>
+<td>
+{{ verbs.habitualPast2ndPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.habitualPast3rdPersonSingPos }} 
+</td>
+<td>
+{{ verbs.habitualPast3rdPersonSingInter }}
+</td>
+<td>
+{{ verbs.habitualPast3rdPersonSingNeg }}
+</td>
+</tr>
+</table>
+Plural<br/>
+<table class = "table table-bordered">
+<tr>
+<td>
+{{ verbs.habitualPast1stPersonPlPosAlt }}
+</td>
+<td>
+{{ verbs.habitualPast1stPersonPlInterAlt }} 
+</td>
+<td>
+{{ verbs.habitualPast1stPersonPlNegAlt }}
+</td>
+</tr>
+<td>
+{{ verbs.habitualPast1stPersonPlPos }} 
+</td>
+<td>
+{{ verbs.habitualPast1stPersonPlInter }} 
+</td>
+<td>
+{{ verbs.habitualPast1stPersonPlNeg }}
+</td>
+<tr>
+    <td>
+{{ verbs.habitualPast2ndPersonPlPos }}
+</td>
+<td>
+{{ verbs.habitualPast2ndPersonPlInter }} 
+</td>
+<td>
+{{ verbs.habitualPast2ndPersonPlNeg }}
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.habitualPast3rdPersonPlPosAlt }} 
+</td>
+<td>
+{{ verbs.habitualPast3rdPersonPlInterAlt }} 
+</td>
+<td>
+{{ verbs.habitualPast3rdPersonPlNegAlt }}
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.habitualPast3rdPersonPlPos }} 
+</td>
+<td>
+{{ verbs.habitualPast3rdPersonPlInter }} 
+</td>
+<td>
+{{ verbs.habitualPast3rdPersonPlNeg }}
+</td>
+</tr>
+</table>
+Impersonal<br/>
+<table class = "table table-bordered">
+    <tr>
+        <td>
+{{ verbs.habitualPastImpersonalPos }} 
+</td>
+<td>
+{{ verbs.habitualPastImpersonalInter }} 
+</td>
+<td>
+{{ verbs.habitualPastImpersonalNeg }}
+</td>
+</tr>
+</table>
+Imperative
+	<hr>
+Singular<br/>
+<table class = "table table-bordered">
+<tr>
+    <th>Indicative</th>
+    <th>Negative</th>
+</tr>
+    <tr>
+        <td>
+{{ verbs.imperative1stPersonSingPos }} 
+</td>
+<td>
+{{ verbs.imperative1stPersonSingNeg }}
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.imperative2ndPersonSingPos }}
+</td>
+<td>
+{{ verbs.imperative2ndPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.imperative3rdPersonSingPos }}
+</td> 
+<td>
+{{ verbs.imperative3rdPersonSingNeg }}
+</td>
+</tr>
+</table>
+Plural<br/>
+<table class = "table table-bordered">
+    <tr>
+        <td>
+{{ verbs.imperative1stPersonPlPos }} 
+</td>
+<td>
+{{ verbs.imperative1stPersonPlNeg }}
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.imperative1stPersonPlPosAlt }} 
+</td>
+<td>
+{{ verbs.imperative1stPersonPlNegAlt }}
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.imperative2ndPersonPlPos }}
+</td>
+<td>
+{{ verbs.imperative2ndPersonPlNeg }} 
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.imperative3rdPersonPlPos }}
+</td>
+<td>
+ {{ verbs.imperative3rdPersonPlNeg }}
+</td>
+</tr>
+<tr>
+    <td>
+{{ verbs.imperative3rdPersonPlPosAlt }}
+</td>
+<td>
+{{ verbs.imperative3rdPersonPlNegAlt }}
+</td>
+</tr>
+</table>
+
+Impersonal
+<table class = "table table-bordered">
+    <tr>
+        <td>
+{{ verbs.imperativeImpersonalPos }}
+</td>
+<td>
+{{ verbs.imperativeImpersonalNeg }}
+</td>
+</tr>
+</table>
+Present Subjunctive
+	<hr>
+Singular<br/>
+<table class = "table table-bordered">
+<tr>
+	<th>Indicative</th>
+	<th>Negative</th>
+</tr>
+<tr>
+<td>
+{{ verbs.presentSubjunctive1stPersonSingPos }} 
+</td>
+<td>
+{{ verbs.presentSubjunctive1stPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.presentSubjunctive2ndPersonSingPos }}
+</td>
+<td>
+ {{ verbs.presentSubjunctive2ndPersonSingNeg }}
+</td>
+</tr>
+<tr>
+<td>
+{{ verbs.presentSubjunctive3rdPersonSingPos }}
+</td>
+<td>
+ {{ verbs.presentSubjunctive3rdPersonSingNeg }}
+</td>
+</tr>
+</table>
+Plural<br/>
+<table class = "table table-bordered">
+<tr>
+    <td>
+        {{ verbs.presentSubjunctive1stPersonPlPos }}
+    </td>
+    <td>
+        {{ verbs.presentSubjunctive1stPersonPlNeg }}
+    </td>
+
+</tr>
+    <td>
+        {{ verbs.presentSubjunctive1stPersonPlPosAlt  }}
+    </td>
+    <td>
+        {{ verbs.presentSubjunctive1stPersonPlNegAlt  }}
+    </td>
+</tr>
+<tr>
+    <td>
+        {{ verbs.presentSubjunctive2ndPersonPlPos }}
+    </td>
+    <td>
+        {{ verbs.presentSubjunctive2ndPersonPlNeg }}
+    </td>
+</tr>
+<tr>
+    <td>
+        {{ verbs.presentSubjunctive3rdPersonPlPos }}
+    </td>
+    <td>
+        {{ verbs.presentSubjunctive3rdPersonPlNeg }}
+    </td>
+</tr>
+</table>
+Impersonal<br/>
+<table class = "table table-bordered">
+<tr>
+	<td>
+        {{ verbs.presentSubjunctiveImpersonalPos }} 
+    </td>
+    <td>
+        {{ verbs.presentSubjunctiveImpersonalNeg }}
+    </td>
+</tr>
+</table>
+<br/> <br/>
+{% endblock %}

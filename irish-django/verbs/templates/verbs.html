@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}Verb List{% endblock %}
+{% block content %}
+
+	<h1>Select a verb from the list below and press "Conjugate"</h1>
+	<hr/>
+	<form action="{% url 'verbconjugator' %}">
+	<select name="verbs" id="verb">           
+	{% for verb in verblist %}
+	
+		<option value={{ verb }}>{{ verb }}</option>
+	
+	{% endfor %}
+	</select>
+	<input type="submit" value="Conjugate"> 
+	<fieldset>
+    <legend>Select Tense</legend>
+    <input id="checkboxSimplePast" type="checkbox" name="verbTense" checked>
+    <label for="checkboxSimplePast">Simple Past</label>
+    <input id="checkboxPresent" type="checkbox" name="verbTense" checked>
+    <label for="checkboxPresent">Present</label>
+    <input id="checkboxFuture" type="checkbox" name="verbTense" checked>
+    <label for="checkboxFuture">Future</label>
+    <input id="checkboxConditional" type="checkbox" name="verbTense" checked>
+    <label for="checkboxConditional">Conditional</label>
+	<input id="checkboxHabitualPast" type="checkbox" name="verbTense" checked>
+    <label for="checkboxHabitualPast">Habitual Past</label>
+    <input id="checkboxImperative" type="checkbox" name="verbTense" checked>
+    <label for="checkboxImperative">Imperative</label>
+    <input id="checkboxPresentSubjunctive" type="checkbox" name="verbTense" checked>
+    <label for="checkboxPresentSubjunctive">Present Subjunctive</label>
+	</fieldset>
+</form>
+{% endblock %}
+2226
