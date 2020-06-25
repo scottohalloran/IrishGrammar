@@ -207,8 +207,8 @@ def create_simple_past_stems(inf):
 		or simple_past_array[:1] == 'sc'
 		):
 		independent_stem = inf
-		negative_stem = inf
-		interrogative_stem = inf
+		dependent_stem = inf
+		
 	# Simple past stem will be infinitive with d' in front of it
 	elif(
 		simple_past_array[0] == 'a'
@@ -223,21 +223,19 @@ def create_simple_past_stems(inf):
 		or simple_past_array[0] == 'ú' 
 		):
 		independent_stem  = "d\'" + inf
-		negative_stem = ''.join(simple_past_array)
-		interrogative_stem = ''.join(simple_past_array)
+		dependent_stem = ''.join(simple_past_array)
 	# Simple past stem will be infinitive with d' in front of it and f lenited
 	elif(simple_past_array[0] == 'f'):
 		simple_past_array.insert(1,'h')
-		negative_stem = "d\'" + ''.join(simple_past_array)
+		independent_stem = "d\'" + ''.join(simple_past_array)
 		dependent_stem = ''.join(simple_past_array)
-		interrogative_stem = ''.join(simple_past_array)
+		
 	# Simple past stem will be infinitive with initial consonant lenited
 	else:
 		simple_past_array.insert(1,'h')
 		independent_stem = ''.join(simple_past_array)
-		negative_stem = ''.join(simple_past_array)
-		interrogative_stem = ''.join(simple_past_array)
-	return independent_stem, dependent_stem, interrogative_stem
+		dependent_stem = ''.join(simple_past_array)
+	return independent_stem, dependent_stem
 
 
 '''
@@ -252,42 +250,59 @@ for verb in csv_input:
 	verb_type = verb[2]
 	verb_conjugation = verb[3]
 	simple_past_independent_stem = ""
-	simple_past_negative_stem = ""
-	simple_past_interrogative_stem = ""
+	simple_past_dependent_stem = ""
+	simple_past_dependent_stem = ""
 	output_file_string = ""
-	simple_past_independent_stem, simple_past_dependent_stem, simple_past_interrogative_stem  = create_simple_past_stems(infinitive)
-infinitive text,
-english text,
-verbalAdjective text,
-verbalNoun text,
-simplePast1stPersonSingIndep = simple_past_independent_stem + " mé"
-simplePast1stPersonSingInter = simple_past_interrogative_stem + " mé"
-ePast1stPersonSingNeg = simple_past_negative_stem + " mé"
-simplePast2ndPersonSingPos = simple_past_independent_stem + " tú"
-simplePast2ndPersonSingInter = simple_past_interrogative_stem + " tú"
-simplePast2ndPersonSingNeg = simple_past_negative_stem + " tú"
-simplePast3rdPersonSingPos = simple_past_independent_stem + " sé, sí"
-simplePast3rdPersonSingInter = simple_past_interrogative_stem + " sé, sí"
-simplePast3rdPersonSingNeg = simple_past_negative_stem + " sé, sí"
-simplePast1stPersonPlPos = simple_past_independent_stem + "amar"
-simplePast1stPersonPlInter = simple_past_interrogative_stem + "amar"
-simplePast1stPersonPlNeg = simple_past_negative_stem + "amar"
-simplePast2ndPersonPlPos text,
-simplePast2ndPersonPlInter text,
-simplePast2ndPersonPlNeg text,
-simplePast3rdPersonPlPos text,
-simplePast3rdPersonPlInter text,
-simplePast3rdPersonPlNeg text,
-simplePastImpersonalPos text,
-simplePastImpersonalInter text,
-simplePastImpersonalNeg text,
+	simple_past_independent_stem, simple_past_dependent_stem  = create_simple_past_stems(infinitive)
+
+	verbalAdjective = infinitive + "tha"
+	verbalNoun = infinitive
+	simplePast1stPersonSingIndep = simple_past_independent_stem + " mé"
+	simplePast1stPersonSingInter = "ar " + simple_past_dependent_stem + " mé"
+	simplePast1stPersonSingNeg = "níor " +  simple_past_dependent_stem + " mé"
+	simplePast2ndPersonSingIndep = simple_past_independent_stem + " tú"
+	simplePast2ndPersonSingInter = "ar " +  simple_past_dependent_stem + " tú"
+	simplePast2ndPersonSingNeg = "níor " +   simple_past_dependent_stem + " tú"
+	simplePast3rdPersonSingIndep = simple_past_independent_stem + " sé, sí"
+	simplePast3rdPersonSingInter = "ar " +  simple_past_dependent_stem + " sé, sí"
+	simplePast3rdPersonSingNeg = "níor " +   simple_past_dependent_stem + " sé, sí"
+	simplePast1stPersonPlIndep = simple_past_independent_stem + "amar"
+	simplePast1stPersonPlInter = "ar " +  simple_past_dependent_stem + "amar"
+	simplePast1stPersonPlNeg = "níor " +   simple_past_dependent_stem + "amar"
+	simplePast2ndPersonPlIndep = simple_past_independent_stem + " sibh"
+	simplePast2ndPersonPlInter = "ar " +  simple_past_dependent_stem + " sibh"
+	simplePast2ndPersonPlNeg = "níor " +   simple_past_dependent_stem + " sibh"
+	simplePast3rdPersonPlIndep = simple_past_independent_stem + " siad"
+	simplePast3rdPersonPlInter = "ar " +  simple_past_dependent_stem + " siad"
+	simplePast3rdPersonPlNeg = "níor " +   simple_past_dependent_stem + " siad"
+	simplePastImpersonalIndep = simple_past_dependent_stem + "adar"
+	simplePastImpersonalInter = "ar " +  simple_past_dependent_stem + "adar"
+	simplePastImpersonalNeg = "níor " +   simple_past_dependent_stem + "adar"
 	output_file_string += infinitive 
 	output_file_string += "," + verb_english
 	output_file_string += "," + verbalAdjective
 	output_file_string += "," + verbalNoun
-	output_file_string += " independent stem is " + simple_past_independent_stem
-	output_file_string += " negative stem is " + simple_past_dependent_stem
-	output_file_string += " interrogative stem is " + simple_past_interrogative_stem
+	output_file_string += "," + simplePast1stPersonSingIndep
+	output_file_string += "," + simplePast1stPersonSingInter
+	output_file_string += "," + simplePast1stPersonSingNeg
+	output_file_string += "," + simplePast2ndPersonSingIndep
+	output_file_string += "," + simplePast2ndPersonSingInter
+	output_file_string += "," + simplePast2ndPersonSingNeg
+	output_file_string += "," + simplePast3rdPersonSingIndep
+	output_file_string += "," + simplePast3rdPersonSingInter
+	output_file_string += "," + simplePast3rdPersonSingNeg
+	output_file_string += "," + simplePast1stPersonPlIndep
+	output_file_string += "," + simplePast1stPersonPlInter
+	output_file_string += "," + simplePast1stPersonPlNeg
+	output_file_string += "," + simplePast2ndPersonPlIndep
+	output_file_string += "," + simplePast2ndPersonPlInter
+	output_file_string += "," + simplePast2ndPersonPlNeg
+	output_file_string += "," + simplePast3rdPersonPlIndep
+	output_file_string += "," + simplePast3rdPersonPlInter
+	output_file_string += "," + simplePast3rdPersonPlNeg
+	output_file_string += "," + simplePastImpersonalIndep
+	output_file_string += "," + simplePastImpersonalInter
+	output_file_string += "," + simplePastImpersonalNeg
 	output_file_string += "\n"
 	#array to write to output_file
 	output_file.write(output_file_string) 

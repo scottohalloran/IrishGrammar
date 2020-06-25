@@ -1,33 +1,49 @@
-infinitive = 'achtáil'
-simple_past_array = list(infinitive)
-	# Simple past independent stem will be the same as infinitive
-if(
-	simple_past_array[0] == 'l'
-	or simple_past_array[0] == 'n' 
-	or simple_past_array[0] == 'r' 
-	or simple_past_array[:1] == 'sc' 
-	or simple_past_array[:1] == 'sm'
-	or simple_past_array[:1] == 'sc' 
-	or simple_past_array[:1] == 'sc'
-	):
-	simple_past_independent_stem = infinitive
-# Simple past stem will be infinitive with d' in front of it
-elif(
-	simple_past_array[0] == 'a'
-	or simple_past_array[0] == 'e' 
-	or simple_past_array[0] == 'i' 
-	or simple_past_array[0] == 'o' 
-	or simple_past_array[0] == 'u' 
-	or simple_past_array[0] == 'á'
-	or simple_past_array[0] == 'é' 
-	or simple_past_array[0] == 'í' 
-	or simple_past_array[0] == 'ó' 
-	or simple_past_array[0] == 'ú' 
-	):
-	simple_past_independent_stem = 'd\'' + infinitive
-# Simple past stem will be infinitive with d' in front of it and f lenited
-elif(simple_past_array[0] == 'f'):
-	simple_past_array.insert(1,'h')
-	simple_past_independent_stem = 'd\'' + ''.join(simple_past_array)
+import requests
+from bs4 import BeautifulSoup
 
-print(simple_past_independent_stem)
+URL = 'https://www.teanglann.ie/en/gram/achomharc'
+page = requests.get(URL)
+
+soup = BeautifulSoup(page.content, 'html.parser')
+
+past = soup.find(id='past')
+past_elements = past.find_all(class_='block introd')
+for past_element in past_elements:
+	element = past_element.text.replace('1', '').replace('2', '').replace('3', '').replace('▪', '').strip()
+	print(element)
+
+present = soup.find(id='present')
+present_elements = present.find_all(class_='block introd')
+for present_element in present_elements:
+	element = present_element.text.replace('1', '').replace('2', '').replace('3', '').replace('▪', '').strip()
+	print(element)
+
+future = soup.find(id='future')
+future_elements = future.find_all(class_='block introd')
+for future_element in future_elements:
+	element = future_element.text.replace('1', '').replace('2', '').replace('3', '').replace('▪', '').strip()
+	print(element)
+
+conditional = soup.find(id='condi')
+conditional_elements = conditional.find_all(class_='block introd')
+for conditional_element in conditional_elements:
+	element = conditional_element.text.replace('1', '').replace('2', '').replace('3', '').replace('▪', '').strip()
+	print(element)
+
+past_continual = soup.find(id='pastConti')
+past_continual_elements = past_continual.find_all(class_='block introd')
+for past_continual_element in past_continual_elements:
+	element = past_continual_element.text.replace('1', '').replace('2', '').replace('3', '').replace('▪', '').strip()
+	print(element)
+
+imperative = soup.find(id='imper')
+imperative_elements = imperative.find_all(class_='block introd')
+for imperative_element in imperative_elements:
+	element = imperative_element.text.replace('1', '').replace('2', '').replace('3', '').replace('▪', '').strip()
+	print(element)
+
+present_subjunctive = soup.find(id='subj')
+present_subjunctive_elements = present_subjunctive.find_all(class_='block introd')
+for present_subjunctive_element in present_subjunctive_elements:
+	element = present_subjunctive_element.text.replace('1', '').replace('2', '').replace('3', '').replace('▪', '').strip()
+	print(element)
