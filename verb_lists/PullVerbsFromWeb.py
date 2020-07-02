@@ -68,7 +68,7 @@ for verb in csv_input:
 		
 		for word in simple_past_array:
 			output_file_string += ',' + word
-		output_file.write(output_file_string) 
+		
 ################################################################################
 # Present Tense
 ################################################################################
@@ -86,7 +86,7 @@ for verb in csv_input:
 		
 		for word in present_array:
 			output_file_string += ',' + word
-		output_file.write(output_file_string) 
+		
 
 ################################################################################
 # Future Tense
@@ -105,7 +105,7 @@ for verb in csv_input:
 		
 		for word in future_array:
 			output_file_string += ',' + word
-		output_file.write(output_file_string) 
+		 
 
 ################################################################################
 # Conditional Mood
@@ -124,7 +124,7 @@ for verb in csv_input:
 		
 		for word in conditional_array:
 			output_file_string += ',' + word
-		output_file.write(output_file_string)
+		
 
 ################################################################################
 # Past Continual Tense
@@ -143,7 +143,7 @@ for verb in csv_input:
 		
 		for word in past_continual_array:
 			output_file_string += ',' + word
-		output_file.write(output_file_string) 
+		
 
 ################################################################################
 # Imperative Mood
@@ -162,7 +162,7 @@ for verb in csv_input:
 		
 		for word in imperative_array:
 			output_file_string += ',' + word
-		output_file.write(output_file_string) 
+		 
 
 ################################################################################
 # Present Subjunctive Mood
