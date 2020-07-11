@@ -5,7 +5,7 @@
 	<h1>Select a verb from the list below and press "Conjugate"</h1>
 	<hr/>
 	<form action="{% url 'verbconjugator' %}">
-	<select name="verbs" id="verb">           
+	<select name="verb" id="verb">           
 	{% for verb in verblist %}
 	
 		<option value={{ verb }}>{{ verb }}</option>
@@ -32,4 +32,3 @@
 	</fieldset>
 </form>
 {% endblock %}
-2226
