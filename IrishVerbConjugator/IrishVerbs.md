@@ -3,3 +3,11 @@ Irish verbs have four moods: the indicative, the imperative the conditional and 
 The Irish equivalent of the infinitive is the stem which is derived from the second person imperative of a verb.
 There are two conjugations of regular verbs.
 Irish has 11 irregular verbs which do not have predictable forms.
+
+First Conjugation
+Verbs with a one-syllable root
+Verbs with a root containing more than one syllable and ending in -áil.
+Verbs ending in -áin, óil, and úir
+
+Second Conjugation
+Verbs with more than one sy
