@@ -40,6 +40,7 @@ The negative is formed by placing ná before the positive form of the verb. Ná 
 Simple Past Tense
 The initial consonat of the root form is lenited.
 A d' is prefixed to verbs starting with a vowel or f.
+The autonomous form adds a -adh to a broad root and -eadh to a slender root.
 
 First Conjugation
 The first person plural of verbs with a slender root add -eamar to the past form.
@@ -69,6 +70,8 @@ Verbs with slender roots have the following endings added to the root:
 -eann sibh
 -eann siad
 
+*******The autonomous form adds a -tar to a broad root and -tear to a slender root.
+
 Second Conjugation
 Verbs ending in -aigh replace the -aigh with:
 -aím
@@ -85,3 +88,22 @@ Verbs ending in -igh replace the -igh with:
 -ímid
 -íonn  sibh
 -íonn  siad
+ 
+*******The autonomous form adds a -ítar to a broad root and -ítear to a slender root.
+
+Future Tense
+First Conjugation
+Verbs with a slender root add -fidh except for the 1st Person Plural which adds -fimid.
+Verbs with a broad root add -faidh except for the 1st Person Plural which adds -faimid.
+*******The autonomous form adds a -far to a broad root and -fear to a slender root.
+
+Second Conjugation
+Verbs with a slender root add -eoidh except for the 1st Person Plural which adds -eoimid.
+Verbs with a broad root add -óidh except for the 1st Person Plural which adds -óimid.
+*******The autonomous form adds a -ófar to a broad root and -eofar to a slender root.
+
+Conditional Mood
+Verbs starting with a consonant are lenited.
+Verbs starting a vowel or with f have d' prefixed to them.
+
+
