@@ -89,21 +89,75 @@ Verbs ending in -igh replace the -igh with:
 -íonn  sibh
 -íonn  siad
  
-*******The autonomous form adds a -ítar to a broad root and -ítear to a slender root.
+*******The autonomous form adds -ítar to a broad root and -ítear to a slender root.
 
 Future Tense
 First Conjugation
 Verbs with a slender root add -fidh except for the 1st Person Plural which adds -fimid.
+-fidh mé
+-fidh tú
+-fidh sé, sí
+-fimid
+-fidh sibh
+-fidh siad
 Verbs with a broad root add -faidh except for the 1st Person Plural which adds -faimid.
+-faidh mé
+-faidh tú
+-faidh sé, sí
+-faimid
+-faidh sibh
+-faidh siad
 *******The autonomous form adds a -far to a broad root and -fear to a slender root.
 
 Second Conjugation
 Verbs with a slender root add -eoidh except for the 1st Person Plural which adds -eoimid.
+-eoidh mé
+-eoidh tú
+-eoidh sé, sí
+-eoimid
+-eoidh sibh
+-eoidh siad
 Verbs with a broad root add -óidh except for the 1st Person Plural which adds -óimid.
+-óidh mé
+-óidh tú
+-óidh sé, sí
+-óimid
+-óidh sibh
+-óidh siad
 *******The autonomous form adds a -ófar to a broad root and -eofar to a slender root.
 
 Conditional Mood
 Verbs starting with a consonant are lenited.
-Verbs starting a vowel or with f have d' prefixed to them.
+Verbs starting a vowel or with fh have d' prefixed to them.
+First Conjugation
+The following endings are added to a slender root:
+-finn
+-feá
+-feadh sé/sí
+-fimis
+-feadh sibh
+-fidís
+The following endings are added to a broad root:
+-fainn
+-fá
+-fadh sé/sí
+-faimis
+-fadh sibh
+-faidís
 
+Second Conjugation
+The following endings are added to a slender root:
+-eoinn
+-eofá
+-eodh sé/sí
+-eomis
+-eodh sibh
+-eoidís
 
+The following endings are added to a broad root:
+-óinn
+-ófá
+-ódh sé/sí
+-óimis
+-ódh sibh
+-óidís

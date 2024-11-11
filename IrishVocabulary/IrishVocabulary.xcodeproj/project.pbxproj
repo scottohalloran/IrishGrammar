@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CFE36AED2CE1BE0A001FA5C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE36AD42CE1BE06001FA5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE36ADB2CE1BE06001FA5C4;
+			remoteInfo = IrishVocabulary;
+		};
+		CFE36AF72CE1BE0A001FA5C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE36AD42CE1BE06001FA5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE36ADB2CE1BE06001FA5C4;
+			remoteInfo = IrishVocabulary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFE36ADC2CE1BE06001FA5C4 /* IrishVocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrishVocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE36AEC2CE1BE0A001FA5C4 /* IrishVocabularyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishVocabularyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE36AF62CE1BE0A001FA5C4 /* IrishVocabularyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishVocabularyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CFE36ADE2CE1BE06001FA5C4 /* IrishVocabulary */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IrishVocabulary;
+			sourceTree = "<group>";
+		};
+		CFE36AEF2CE1BE0A001FA5C4 /* IrishVocabularyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IrishVocabularyTests;
+			sourceTree = "<group>";
+		};
+		CFE36AF92CE1BE0A001FA5C4 /* IrishVocabularyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IrishVocabularyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE36AD92CE1BE06001FA5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE36AE92CE1BE0A001FA5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE36AF32CE1BE0A001FA5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE36AD32CE1BE06001FA5C4 = {
+			isa = PBXGroup;
+			children = (
+				CFE36ADE2CE1BE06001FA5C4 /* IrishVocabulary */,
+				CFE36AEF2CE1BE0A001FA5C4 /* IrishVocabularyTests */,
+				CFE36AF92CE1BE0A001FA5C4 /* IrishVocabularyUITests */,
+				CFE36ADD2CE1BE06001FA5C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE36ADD2CE1BE06001FA5C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE36ADC2CE1BE06001FA5C4 /* IrishVocabulary.app */,
+				CFE36AEC2CE1BE0A001FA5C4 /* IrishVocabularyTests.xctest */,
+				CFE36AF62CE1BE0A001FA5C4 /* IrishVocabularyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE36ADB2CE1BE06001FA5C4 /* IrishVocabulary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE36B002CE1BE0A001FA5C4 /* Build configuration list for PBXNativeTarget "IrishVocabulary" */;
+			buildPhases = (
+				CFE36AD82CE1BE06001FA5C4 /* Sources */,
+				CFE36AD92CE1BE06001FA5C4 /* Frameworks */,
+				CFE36ADA2CE1BE06001FA5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CFE36ADE2CE1BE06001FA5C4 /* IrishVocabulary */,
+			);
+			name = IrishVocabulary;
+			packageProductDependencies = (
+			);
+			productName = IrishVocabulary;
+			productReference = CFE36ADC2CE1BE06001FA5C4 /* IrishVocabulary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE36AEB2CE1BE0A001FA5C4 /* IrishVocabularyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE36B032CE1BE0A001FA5C4 /* Build configuration list for PBXNativeTarget "IrishVocabularyTests" */;
+			buildPhases = (
+				CFE36AE82CE1BE0A001FA5C4 /* Sources */,
+				CFE36AE92CE1BE0A001FA5C4 /* Frameworks */,
+				CFE36AEA2CE1BE0A001FA5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE36AEE2CE1BE0A001FA5C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CFE36AEF2CE1BE0A001FA5C4 /* IrishVocabularyTests */,
+			);
+			name = IrishVocabularyTests;
+			packageProductDependencies = (
+			);
+			productName = IrishVocabularyTests;
+			productReference = CFE36AEC2CE1BE0A001FA5C4 /* IrishVocabularyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFE36AF52CE1BE0A001FA5C4 /* IrishVocabularyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE36B062CE1BE0A001FA5C4 /* Build configuration list for PBXNativeTarget "IrishVocabularyUITests" */;
+			buildPhases = (
+				CFE36AF22CE1BE0A001FA5C4 /* Sources */,
+				CFE36AF32CE1BE0A001FA5C4 /* Frameworks */,
+				CFE36AF42CE1BE0A001FA5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE36AF82CE1BE0A001FA5C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CFE36AF92CE1BE0A001FA5C4 /* IrishVocabularyUITests */,
+			);
+			name = IrishVocabularyUITests;
+			packageProductDependencies = (
+			);
+			productName = IrishVocabularyUITests;
+			productReference = CFE36AF62CE1BE0A001FA5C4 /* IrishVocabularyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE36AD42CE1BE06001FA5C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CFE36ADB2CE1BE06001FA5C4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CFE36AEB2CE1BE0A001FA5C4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CFE36ADB2CE1BE06001FA5C4;
+					};
+					CFE36AF52CE1BE0A001FA5C4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CFE36ADB2CE1BE06001FA5C4;
+					};
+				};
+			};
+			buildConfigurationList = CFE36AD72CE1BE06001FA5C4 /* Build configuration list for PBXProject "IrishVocabulary" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE36AD32CE1BE06001FA5C4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CFE36ADD2CE1BE06001FA5C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE36ADB2CE1BE06001FA5C4 /* IrishVocabulary */,
+				CFE36AEB2CE1BE0A001FA5C4 /* IrishVocabularyTests */,
+				CFE36AF52CE1BE0A001FA5C4 /* IrishVocabularyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE36ADA2CE1BE06001FA5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE36AEA2CE1BE0A001FA5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE36AF42CE1BE0A001FA5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE36AD82CE1BE06001FA5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE36AE82CE1BE0A001FA5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE36AF22CE1BE0A001FA5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE36AEE2CE1BE0A001FA5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE36ADB2CE1BE06001FA5C4 /* IrishVocabulary */;
+			targetProxy = CFE36AED2CE1BE0A001FA5C4 /* PBXContainerItemProxy */;
+		};
+		CFE36AF82CE1BE0A001FA5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE36ADB2CE1BE06001FA5C4 /* IrishVocabulary */;
+			targetProxy = CFE36AF72CE1BE0A001FA5C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFE36AFE2CE1BE0A001FA5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFE36AFF2CE1BE0A001FA5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE36B012CE1BE0A001FA5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IrishVocabulary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordwalkthrough.IrishVocabulary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE36B022CE1BE0A001FA5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IrishVocabulary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordwalkthrough.IrishVocabulary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFE36B042CE1BE0A001FA5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordwalkthrough.IrishVocabularyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrishVocabulary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IrishVocabulary";
+			};
+			name = Debug;
+		};
+		CFE36B052CE1BE0A001FA5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordwalkthrough.IrishVocabularyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrishVocabulary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IrishVocabulary";
+			};
+			name = Release;
+		};
+		CFE36B072CE1BE0A001FA5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordwalkthrough.IrishVocabularyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrishVocabulary;
+			};
+			name = Debug;
+		};
+		CFE36B082CE1BE0A001FA5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordwalkthrough.IrishVocabularyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrishVocabulary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE36AD72CE1BE06001FA5C4 /* Build configuration list for PBXProject "IrishVocabulary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE36AFE2CE1BE0A001FA5C4 /* Debug */,
+				CFE36AFF2CE1BE0A001FA5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE36B002CE1BE0A001FA5C4 /* Build configuration list for PBXNativeTarget "IrishVocabulary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE36B012CE1BE0A001FA5C4 /* Debug */,
+				CFE36B022CE1BE0A001FA5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE36B032CE1BE0A001FA5C4 /* Build configuration list for PBXNativeTarget "IrishVocabularyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE36B042CE1BE0A001FA5C4 /* Debug */,
+				CFE36B052CE1BE0A001FA5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE36B062CE1BE0A001FA5C4 /* Build configuration list for PBXNativeTarget "IrishVocabularyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE36B072CE1BE0A001FA5C4 /* Debug */,
+				CFE36B082CE1BE0A001FA5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE36AD42CE1BE06001FA5C4 /* Project object */;
+}
