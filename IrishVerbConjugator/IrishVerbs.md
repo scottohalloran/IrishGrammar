@@ -161,3 +161,22 @@ The following endings are added to a broad root:
 -óimis
 -ódh sibh
 -óidís
+
+Imperfect Tense
+Verbs starting with a consonant are lenited.
+Verbs starting a vowel or with fh have d' prefixed to them.
+First Conjugation
+The following endings are added to a slender root:
+-inn
+-eá
+-eadh sé/sí
+-imis
+-eadh sibh
+-idís
+The following endings are added to a broad root:
+-ainn
+-á
+-adh sé/sí
+-aimis
+-adh sibh
+-aidís
