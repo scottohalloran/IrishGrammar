@@ -161,3 +161,22 @@ The following endings are added to a broad root:
 -óimis
 -ódh sibh
 -óidís
+
+The Present Subjunctive Mood
+The present subjunctive is the same for both first and second conjugations.
+All forms are preceded by "go" and are eclipsed.
+Verbs with a slender root have the following endings:
+-e mé
+-e tú
+-e sé, sí
+-imid
+-e sibh
+-e siad
+
+Verbs with a broad root have the following endings:
+-a mé
+-a tú
+-a sé, sí
+-aimid
+-a sibh
+-a siad
