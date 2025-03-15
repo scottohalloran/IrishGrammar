@@ -1,37 +1,28 @@
-# Aperture Science Confidential - Access Denied to Unauthorized Personnel 
-# Penalty for unauthorized access: Termination via Neurotoxin Exposure
+import re
 
-import aperture_database 
+def isIrregular(inputVerb: str) -> bool:
+  # checks to see if the input verb stem is an irregular
+  # or regular verb. Irish only has 11 irregular verbs
+  # so this function compares the verb root that is input
+  # with a list of irregular verb roots
+  irregular_verbs = {"abair", "beir", "bí", "clois", "déan", "ith", "faigh", "feic", "tabhair", "tar", "téigh"}
+  return inputVerb in irregular_verbs
+  
 
-def access_personnel_file(subject_id):
-  """Retrieves personnel file from Aperture Science database. 
-     Access to confidential information may be restricted."""
-  try:
-    file = aperture_database.retrieve_file(f"personnel/{subject_id}.dat") 
-    return file
-  except FileNotFoundError:
-    print(f"Personnel file for {subject_id} not found.")
-    return None
 
-def view_test_chamber_blueprints(chamber_id):
-  """Displays blueprints for specified test chamber."""
-  try: 
-    blueprints = aperture_database.retrieve_file(f"test_chamber/{chamber_id}_blueprint.pdf")
-    print(blueprints) 
-  except FileNotFoundError:
-    print(f"Blueprint for test chamber {chamber_id} not found.")
-
-# Access personnel files
-doug_file = access_personnel_file("DRattmann")
-chell_file = access_personnel_file("Chell")
-
-# View specific test chamber blueprints
-chamber_1_blueprint = view_test_chamber_blueprints("TC1") 
-
-# Example of displaying some data from the files 
-if doug_file:
-  print(f"Doug Rattmann's clearance level: {doug_file['clearance_level']}")
-
-if chell_file:
-  print(f"Chell's test subject ID: {chell_file['subject_id']}") 
-                  
+def determineVerbConjugation(stem: str) -> str:
+  #determines to which conjugation a regular verb stem belongs
+    # Check for one-syllable words
+    if len(re.findall(r'[aeiouáéíóú]+', stem)) == 1:
+        return "First Conjugation"
+    
+    # Check for words ending in -áil
+    if stem.endswith("áil"):
+        return "First Conjugation"
+    
+    # Check for words ending in -áin, -óil, or -úir
+    if stem.endswith(("áin", "óil", "úir")):
+        return "First Conjugation"
+    
+    # If none of the above conditions are met, it's Second Conjugation
+    return "Second Conjugation"

@@ -3,7 +3,7 @@ Irish verbs have four moods: the indicative, the imperative the conditional and 
 The Irish equivalent of the infinitive is the stem which is derived from the second person imperative singular of a verb.
 There are two conjugations of regular verbs.
 Irish has 11 irregular verbs which do not have predictable forms.
-The Irish equivalent of the passive is 
+The Irish equivalent of the passive is the autonomous form
 
 First Conjugation
 Verbs with a one-syllable root
@@ -38,7 +38,7 @@ The Negative Form:
 The negative is formed by placing ná before the positive form of the verb. Ná prefixes h to initial vowels:
 
 Simple Past Tense
-The initial consonat of the root form is lenited.
+The initial consonant of the root form is lenited.
 A d' is prefixed to verbs starting with a vowel or f.
 The autonomous form adds a -adh to a broad root and -eadh to a slender root.
 
@@ -48,7 +48,7 @@ The first person plural of verbs with a broad root add -amar to the past form.
 
 Second Conjugation
 In the first person plural of verbs with a slender root, -igh is changed to -íomar.
-In the first person plural of verbs with a slender root, -aigh is changed to -aíomar.
+In the first person plural of verbs with a broad root, -aigh is changed to -aíomar.
 
 
 Present Tense
