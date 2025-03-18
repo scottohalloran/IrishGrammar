@@ -6,4 +6,4 @@
 //
 
 import Foundation
-var List1 : WordListClass = ["fear" "man" "noun"]
+

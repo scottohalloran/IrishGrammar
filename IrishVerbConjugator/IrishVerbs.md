@@ -19,31 +19,37 @@ v1b — A verb whose stem ending is a slender consonant
 v1b(x) A verb whose stem ending broadens when an ending is added: aidhlaic, agaill, tíolaic.
 v1c = A verb that has a polysyllabic stem ending in -ál and -áil
 A verb of this type is conjugated as if its stem ends in -ál except that the l is attenuated before a -t: siúil,aisigh , etc.
+
 v1d = A verb that has a monosyllabic stem and ends in
 -aeigh, -áigh, -aoigh, -eoigh, -iaigh, -óigh,
--UAijh, or -úijh. It takes a broad p and
-slender c in its ending:
-nóijh, imchtóijh and eisiAijh, etc. [Class 5 in GMI & GGBC 14.40]
-vle = A verb that has a monosyllabic stem and ends in -éijh.
-It takes a slender p and c in its ending:
-téijh and éijh, etc.	[Class 6 in GMI & GGBC 14.41]
-vlf = A verb with a slender-ending stem that syncopates and broadens when an ending is added to it: AuhAin, cojhAiR, etc.
-[Class 4 - exceptional conjugation in GMI & GGBC 14.39]
-vlf(s) = A verb with a slender-ending stem that syncopates and remains slender when an ending is added: ueijhit and SAijhin.
-[Class 2 - exceptional conjugation in GMI & GGBC 14.49]
-vlf(x) = Four verbs that syncopate atypically:
-AchAiR (beseech), lonnAit (wash), spADhAR (exasperate), and ciomAin (curse).
-vlg = A verb that has a monosyllabic stem that ends in -í;h:
-cloíjh and CAÍsh, etc.	[Class 7 in GMI & GGBC 14.42]
-vlh = A verb that has a monosyllabic stem and ends in -ijh following a consonant or a short vowel that follows a consonant. An unaccented i is used before -c and -jh:
-pijh, Rish, snoish, and tonsuijh. [Class 8 in GMI & GGBC 14.43]
-vlx = One verb that appears to be a type v2b because of its -ijh stem ending. Instead, it takes the same endings as a vlb verb: puiRSijh (harrow).
-[Exceptional class 2 syncopated verbs in GMI & GGBC 14.35]
+-uaigh, or -úigh. It takes a broad f and
+slender t in its ending:
+dóigh, imchlóigh and eisiaigh, etc.
+
+v1e = A verb that has a monosyllabic stem and ends in -éigh.
+It takes a slender f and t in its ending:
+léigh and éigh, etc.
+
+v1f = A verb with a slender-ending stem that syncopates and broadens when an ending is added to it: adhain, gleadhair, etc.
+
+vlf(s) = A verb with a slender-ending stem that syncopates and remains slender when an ending is added: feighil and saighid.
+
+vlf(x) = Five verbs that syncopate atypically:
+achair (beseech), eisionnail (elute), ionnail (wash), spadhar (exasperate), and tiomain (curse).
+
+v1g = A verb that has a monosyllabic stem that ends in -ígh:
+buígh and caígh, etc.
+
+v1h = A verb that has a monosyllabic stem and ends in -igh following a consonant or a short vowel that follows a consonant. An unaccented i is used before -t and -gh:
+figh, dligh, dluigh, and guigh.
+
+v1x = One verb that appears to be a type v2b because of its -igh stem ending. Instead, it takes the same endings as a vlb verb: fuirsigh (harrow).
+
 v2- = Second Conjugation Verbs
-v2a = A verb that has a polysyllabic stem ending in -Aijh:
-ceAnnAijh, smÁtAish, etc.	[Class 9 in GMI & GGBC 14.45]
-v2a(x) = One verb that has a polysyllabic stem ending in -Aijh with an anomalous past form: CARÍAijh (happen).
-[Class 13 in GMI & GGBC 14.49, and 13b, page 333 in appendix I of GMI]
+v2a = A verb that has a polysyllabic stem ending in -aigh:
+ceannaigh, smálaigh, etc.
+v2a(x) = One verb that has a polysyllabic stem ending in -aigh with an anomalous past form: tarlaigh (happen).
+
 
 
 
