@@ -50,6 +50,31 @@ v2a = A verb that has a polysyllabic stem ending in -aigh:
 ceannaigh, smálaigh, etc.
 v2a(x) = One verb that has a polysyllabic stem ending in -aigh with an anomalous past form: tarlaigh (happen).
 
+v2b = A verb that has a polysyllabic stem ending in -igh
+(except fuirsigh) following a consonant:
+imigh, ceistigh, etc.
+
+v2c = A verb that has a polysyllabic stem and ends in -aibh, -ail, -aill, -ain, or -air,
+and syncopates when an ending is added:
+oscail, ceangail, tuargain, ascain, freagair, cabhair, etc.
+
+v2d = A verb that has a polysyllabic stem and ends in -il, -ill, -in, -ir, or -is, followed by a consonant, and syncopates when an ending is added:
+cigil, taitin, gibir, imir, and inis.
+
+v2e = A verb that has a polysyllabic stem and is not syncopated
+when an ending is added:
+foghlaim, díolaim, aithris, fulaing, and tarraing.
+
+v2f = A verb that has a polysyllabic stem and is not syncopated,
+but is broadened (if necessary) when an ending is added: freastail, taistil, and lorg.
+
+v3 = The Irregular Verbs (excluding the copula):
+abair, beir, bí, cLois/cLuin, déan, faigh,
+feic, ith, tabhair, tar, and téigh.
+v4 = Copula.	
+v5 = All defective verbs (excluding the copula) such as
+aitim,arsa,dar,dóbair,dtí,féad,feadair,ráinigh,téana
+
 
 
 
