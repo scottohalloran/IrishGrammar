@@ -71,7 +71,7 @@ but is broadened (if necessary) when an ending is added: freastail, taistil, and
 v3 = The Irregular Verbs (excluding the copula):
 abair, beir, bí, cLois/cLuin, déan, faigh,
 feic, ith, tabhair, tar, and téigh.
-v4 = Copula.	
+v4 = Copula.
 v5 = All defective verbs (excluding the copula) such as
 aitim,arsa,dar,dóbair,dtí,féad,feadair,ráinigh,téana
 
